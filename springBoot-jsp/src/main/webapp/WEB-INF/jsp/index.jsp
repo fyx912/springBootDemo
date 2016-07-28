@@ -15,5 +15,7 @@
     content : ${message}
     <br/>
     time : ${time}
+    <br/>
+    <img alt="读取自定义配置img中的图片" src="img/test.jpg">
 </body>
 </html>
