@@ -36,6 +36,7 @@ public class WelcomeController {
      */
     @RequestMapping(value = "/index")
     public ModelAndView index(){
+        System.out.println(" index ");
         ModelAndView mav = new ModelAndView("index");
         mav.addObject("message", message);
         mav.addObject("time", new Date());
